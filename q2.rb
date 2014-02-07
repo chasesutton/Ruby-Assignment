@@ -13,9 +13,9 @@ end
 
 #Example test cases:
 
-#palindrome?("A man, a plan, a canal -- Panama")  # => true
+palindrome?("A man, a plan, a canal -- Panama")  # => true
 
-#palindrome?("Madam, I'm Adam!")                  # => true
+palindrome?("Madam, I'm Adam!")                  # => true
 
-#palindrome?("Abracadabra")                       # => false (nil is also ok)
+palindrome?("Abracadabra")                       # => false (nil is also ok)
 
