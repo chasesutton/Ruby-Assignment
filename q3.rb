@@ -2,10 +2,10 @@
 
 def count_words(string)
 
-    words_array = string.split(/\W+/)
-    word_count = Hash.new(0)
-    words_array.each { |word| word_count[word.downcase] += 1}  #the each method is an iterator
-    word_count
+    words_array = string.split(/\W+/) #splits string into an array of words
+    frequency_count = Hash.new(0) #new hash defaulted to 0
+    words_array.each { |word| frequency_count[word.downcase] += 1} #|word| then creates new entry in frequency hash with current word and then updates by 1
+    frequency_count
 
 end
 
