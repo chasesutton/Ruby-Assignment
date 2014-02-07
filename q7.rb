@@ -58,8 +58,8 @@ class JellyBean < Dessert               #JellyBean inherits from Dessert class
 
 end
 
- j = JellyBean.new('vanilla bean', 201, 'vanilla')
- p j.delicious?
- p j.healthy?
+ #j = JellyBean.new('vanilla bean', 201, 'vanilla')
+ #p j.delicious?
+ #p j.healthy?
 
 # Note: As before, you may define additional helper methods.

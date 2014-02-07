@@ -1,6 +1,6 @@
 #(q1) - Hello World 
 #When learning a new computer langauge, the first task one undertakes in to write
-#a hello world application. 
+#a hello world application. #
 name = ARGV
 
 class HelloWorldClass           #a class name has been created

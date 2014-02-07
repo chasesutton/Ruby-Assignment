@@ -108,7 +108,7 @@ end
 # ]
 
 # p rps_tournament_winner(tournament)
-
+#
 # In the tournament above Armando will always play P and Dave will always play S. This tournament plays out as follows:
 
 # Dave would beat Armando (S>P),
