@@ -9,10 +9,10 @@
 def combine_anagrams(words)
 
   words.group_by { |word| word.downcase.chars.sort.join}.values
+  										#group_by returns key that is result of evaluated block and values are the the collection that corresponds to the key 
   									    #chars returns an array of characters from word
   									    #sorts array from a to z
   									    #join puts the char array back into a string
-  									    #finally values just puts the array
 
 end
 
@@ -20,9 +20,9 @@ end
 
 # # Example test case:
 
-words =  ['cars', 'for', 'potatoes', 'racs', 'four', 'scar', 'creams', 'scream']
+#words =  ['cars', 'for', 'potatoes', 'racs', 'four', 'scar', 'creams', 'scream']
 
-p combine_anagrams(words)
+#p combine_anagrams(words)
 
 # output: [ ["cars", "racs", "scar"],
 

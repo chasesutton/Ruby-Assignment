@@ -84,6 +84,9 @@ def rps_tournament_winner(tournament)
 
 end
 
+#because rps_game_winner returns an array, it returns D, v R, + A, v R, then goes back into game_winner and returns R + A and finally returns R
+#which tries to get called again but there is only 1 player and so WrongNumberOfPlayers counts that game.lengths's array is not 2
+
 # tournament = [
 
 #     [

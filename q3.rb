@@ -1,7 +1,7 @@
 #3)— Word Count: Define a function count_words(string) that, given an input string, return a hash whose keys are words in the string and whose values are the number of times each word appears. Your code should look like:
 def count_words(string)
 
-    words_array = string.split(/\W+/) #splits string into an array of words
+    words_array = string.split(/\W+/) #splits string into an array of words using any non chracter delimeter #+combines multiple delimiters
     frequency_count = Hash.new(0) #new hash defaulted to 0
     words_array.each { |word| frequency_count[word.downcase] += 1} #|word| then creates new entry in frequency hash with current word and then updates by 1
     puts frequency_count

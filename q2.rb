@@ -4,8 +4,10 @@
 
 def palindrome?(string)
 
-    letter_string = string.downcase.gsub(/[^a-z]/, '') #method chaining #keep only letters
+    letter_string = string.downcase.gsub(/[^a-z]/,'') #deletes any single character besides a-z
+    puts "#{letter_string}"
     puts letter_string.reverse == letter_string
+    puts "#{letter_string.reverse}"
 
 end
 

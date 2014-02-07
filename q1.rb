@@ -5,9 +5,9 @@ name = ARGV
 
 class HelloWorldClass           #a class name has been created
     def initialize(name)        #initializes a class constructer which takes a parameter named name
-       @name = name.capitalize  #caplitizes name? 
+       @name = name.capitalize  #caplitizes name first letter
     end
-    def sayHi
+    def sayHi					#define method sayHi
         puts "Hello #{@name}!"   
     end
 end
